@@ -23,23 +23,23 @@ global.SESSION_ID = process.env.SESSION_ID || ''
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'CypherX' 
+global.botname = process.env.BOT_NAME || 'XＥꜱʜᴜ-BOT' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '94758178340' 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'Eshan Kavishka' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "Cypher" 
+global.packname = process.env.STICKER_PACK_NAME || "XＥꜱʜᴜ-BOT" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "X" 
+global.author = process.env.STICKER_AUTHOR_NAME || "Eshan Kavishka Whatsapp" 
 
 //----------------------[ TIMEZONE ]--------------------//
 
@@ -48,7 +48,7 @@ global.timezones = process.env.TIMEZONE || "Africa/Nairobi"
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
-global.dbToken = process.env.GITHUB_TOKEN || "";
+global.dbToken = process.env.GITHUB_TOKEN || "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";
 // Not really necessary on panels/vps/termux, just put it when bot settings reset when bot restarts.
 
 //Go to https://github.com/settings/tokens, select 'Tokens (classic)', then tap 'Generate new token' and select 'Generate new token (classic)'. Enter any note, choose 'No expiration', and under 'Select scopes', tick 'repo'. Scroll down, generate the token, and copy it. Paste it here. If using a single token for multiple bots, change the owner number to avoid settings mixups.
@@ -56,17 +56,17 @@ global.dbToken = process.env.GITHUB_TOKEN || "";
 
 //-----------------[ CONTEXT LINK ]--------------------//
 
-global.plink = process.env.PLINK || "https://www.instagram.com/heyits_tylor?igsh=YzljYTk1ODg3Zg---"
+global.plink = process.env.PLINK || "https://wa.me/94758178340?text=Hey+XＥꜱʜᴜ-BOT"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "©CypherX"
+global.wm = process.env.GL_WM || "©XＥꜱʜᴜ-BOT"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
-  done: '*Done*', 
-  success: '©CypherX', 
+  done: '*XＥꜱʜᴜ-BOT/Done*', 
+  success: '©XＥꜱʜᴜ-BOT', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
